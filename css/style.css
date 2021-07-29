@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+nav ul li {
+  display: inline;
+  position: relative;
+  top: 20px;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 20px; }
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+.navegador {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px; }
+
+.borde {
+  position: relative;
+  margin-top: 30px; }
+
+.container-fluid {
+  padding: 0px; }
+
+.bordeTitulo {
+  display: flex;
+  position: relative;
+  left: 120px;
+  justify-content: flex-end;
+  align-items: center; }
+
+.container-fluid {
+  overflow: hidden; }
+
+.colTitulo {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px; }
+
+.colLogo {
+  text-align: center;
+  padding-top: 25px; }
+
+.titulodescVehiculo {
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; }
+
+.descVehiculo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+.descVehiculo, .titulodescVehiculo {
+  margin-right: 20px; }
+
+.contenido {
+  padding-right: 40px; }
+
+.audi {
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px; }
+
+.centrarAudi, .centrarPorsche, .centrarBugatti {
+  display: flex;
+  justify-content: center; }
+
+.porsche911 {
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 10px; }
+
+.bugatti {
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px; }
+
+.facebook, .instagram, .twitter {
+  height: 40px;
+  position: relative; }
+
+.instagram, .twitter {
+  /* color:#4BD1E6; */ }
+
+.redes {
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color:rgb(207, 163, 40); */ }
+
+#grad {
+  background-image: linear-gradient(to left, #cfa328, red); }
+
+.instagram:hover {
+  transform: scale(2); }
+
+.facebook:hover, .instagram:hover, .twitter:hover {
+  transform: scale(2); }
+
+.twitter:hover {
+  transform: scale(2); }
+
+.containerOnix {
+  display: flex;
+  justify-content: center; }
+
+.onix {
+  position: relative;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px; }
+
+.marcasVehiculos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center; }
+
+.selectVehiculos {
+  width: 100px; }
+
+.flexImagenes {
+  display: flex;
+  justify-content: center; }
+
+.bmw, .maserati {
+  width: 300px;
+  border: 1px solid black;
+  margin-top: 40px; }
+
+.formulario {
+  position: relative;
+  top: 50px;
+  display: flex;
+  height: 800px;
+  justify-content: center; }
+
+.email {
+  margin-top: 5px;
+  width: 100%; }
+
+.numero {
+  margin-top: 5px; }
+
+form {
+  position: relative;
+  top: 20px;
+  border: 1px solid black;
+  height: 500px;
+  padding: 10px;
+  border-radius: 5px; }
+
+.descripcionAuto {
+  margin-top: 5px; }
+
+.buttons {
+  display: flex;
+  justify-content: center; }
+
+.marcas {
+  margin-top: 5px; }
+
+@media only screen and (max-width: 767px) {
+  .titulo {
+    font-size: 25px;
+    text-align: center; }
+  .colLogo {
+    padding-left: 50px;
+    padding-top: 10px; }
+  .bottonPosition {
+    justify-content: flex-end; }
+  nav ul a {
+    font-size: 15px; }
+  .navbar-nav {
+    text-align: right; }
+  .descVehiculo, .titulodescVehiculo {
+    margin: 20px; }
+  .paddingAutos {
+    padding-right: 40px;
+    padding-left: 40px; } }
