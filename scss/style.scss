@@ -61,6 +61,13 @@ nav ul li a{
     padding-top: 25px;
 }
 
+.flexQuienes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .anchoCarousel{
     width: 1000px;
     border: $bordesVehiculos;
