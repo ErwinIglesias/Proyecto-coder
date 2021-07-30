@@ -61,6 +61,33 @@ nav ul li a{
     padding-top: 25px;
 }
 
+.anchoCarousel{
+    width: 1000px;
+    border: $bordesVehiculos;
+    border-radius: 2px;
+}
+
+.flexCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.marginAutos{
+    margin-top: 50px;
+}
+
+.nuestrosVehiculos{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloNuestrosVehiculos{
+    border: $bordesVehiculos;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 .titulodescVehiculo{
     font-size: $fontTituloDescVehiculo;
     text-align: center;
