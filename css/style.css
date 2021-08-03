@@ -71,6 +71,40 @@ nav ul li a {
   justify-content: center;
   margin-top: 40px; }
 
+.anchoContacto {
+  display: flex;
+  justify-content: center; }
+
+.botonesContacto {
+  width: 600px;
+  margin-top: 50px; }
+
+.tituloContacto {
+  text-align: center;
+  padding-left: 50px; }
+
+.flexBotones {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px; }
+
+.achicarBotones {
+  width: 400px; }
+
+.centrarBotones {
+  display: flex;
+  justify-content: center; }
+
+.botonEnviar {
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 30px; }
+
+.bordeBotones {
+  border-radius: 10px; }
+
 .nuestrosVehiculos {
   display: flex;
   justify-content: center; }
@@ -171,27 +205,33 @@ nav ul li a {
   border: 1px solid black;
   margin-top: 40px; }
 
-.formulario {
-  position: relative;
-  top: 50px;
-  display: flex;
-  height: 800px;
-  justify-content: center; }
-
-.email {
-  margin-top: 5px;
-  width: 100%; }
-
 .numero {
   margin-top: 5px; }
 
-form {
-  position: relative;
-  top: 20px;
-  border: 1px solid black;
-  height: 500px;
-  padding: 10px;
-  border-radius: 5px; }
+.contenedor-formulario {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black; }
+
+.formulario {
+  height: 800px;
+  width: 500px;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.marginEmail {
+  margin-top: 10px; }
+
+.marginDescVehiculo {
+  margin-top: 25px; }
+
+.nombreApellido {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+
+.paddingControl {
+  padding-right: 10px; }
 
 .descripcionAuto {
   margin-top: 5px; }
