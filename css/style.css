@@ -210,8 +210,7 @@ nav ul li a {
 
 .contenedor-formulario {
   display: flex;
-  justify-content: center;
-  border: 1px solid black; }
+  justify-content: center; }
 
 .formulario {
   height: 800px;

@@ -266,13 +266,11 @@ nav ul li a{
 .contenedor-formulario{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 
 .formulario{
     height: 800px;
     width: 500px;
-    // border: 1px solid black;
     flex-direction: column;
     justify-content: flex-start;
 }
