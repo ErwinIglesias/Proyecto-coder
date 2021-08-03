@@ -219,6 +219,9 @@ nav ul li a {
   flex-direction: column;
   justify-content: flex-start; }
 
+.modificar-control {
+  padding-left: 10px; }
+
 .marginEmail {
   margin-top: 10px; }
 
@@ -227,7 +230,7 @@ nav ul li a {
 
 .nombreApellido {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 20px; }
 
 .paddingControl {
