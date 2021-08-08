@@ -3,13 +3,21 @@
   padding: 0; }
 
 nav ul li {
-  display: inline;
-  position: relative;
-  top: 20px;
-  list-style-type: none;
-  display: inline-block;
+  margin-top: 20px;
   padding-right: 20px;
   font-size: 20px; }
+
+.flexLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px; }
+
+.bottonPosition {
+  margin-left: 50px; }
+
+.titulo {
+  padding-left: 50px; }
 
 .header {
   border-bottom: 1px solid black; }
@@ -57,7 +65,7 @@ nav ul li a {
   margin-top: 50px; }
 
 .anchoCarousel {
-  width: 1000px;
+  width: 1200px;
   border: 1px solid black;
   border-radius: 2px; }
 
@@ -229,6 +237,11 @@ nav ul li a {
 
 .marginDescVehiculo {
   margin-top: 25px; }
+
+.formContacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
 
 .nombreApellido {
   display: flex;
