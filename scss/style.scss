@@ -78,11 +78,54 @@ nav ul li a{
     padding-top: 25px;
 }
 
-.flexQuienes{
+.contenedorAutos{
     display: flex;
     flex-direction: column;
+    width: 400px;
+    height: 550px;
+    // border: 1px solid black;
+}
+
+.flexContenedorAutos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.imagenContenedor{
+    overflow: hidden;
+}
+
+.anchoImagenContenedor{
+    width: 100%;
+}
+
+.centrarTitulo{
     text-align: center;
+}
+
+.textoContenedor{
+    padding-left: 10px;
+}
+
+.flexQuienes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
     margin-top: 50px;
+}
+
+.quienesSomos{
+    width: 150px;
+    font-size: 35px;
+}
+
+.pQuienesSomos{
+    margin: 0;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 
  .anchoCarousel{
@@ -212,7 +255,13 @@ nav ul li a{
 
 .instagram, .twitter {
     @extend .facebook;
-    /* color:#4BD1E6; */
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to left,rgb(207, 163, 40),red);
 }
 
 .redes {
@@ -220,11 +269,48 @@ nav ul li a{
     height: 80px;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color:rgb(207, 163, 40); */
 }
 
-#grad{
-    background-image: linear-gradient(to left,rgb(207, 163, 40),red);
+.flexRedes{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.flexDerechos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIdeal{ 
+    font-size: 20px;
+    align-items: center;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 300px;
+}
+
+.redesTitulo{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.logearse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tenesCuenta{
+    margin-top: 10px;
 }
 
 .instagram:hover{
@@ -365,25 +451,5 @@ nav ul li a{
     }
 
 }
-    // .form_color{
-    //     background-color: red;
-    // }
 
-    // .titulo_borde{
-    //     border: 1px solid black;
-    //     border-radius: 10px;
-    //     width: 300px;
-    // }
-
-    // .row_Bcolor{
-    //     background-color: blue;
-    // }
-
-    // .elige_color{
-    //     color: cyan;
-    // }
-
-    // .elige_font{
-    //     font-size: 20px;
-    // }
 
