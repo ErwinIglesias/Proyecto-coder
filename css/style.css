@@ -107,9 +107,10 @@ nav ul li a {
   align-items: center; }
 
 .anchoCarousel {
-  width: 1200px;
-  border: 1px solid black;
-  border-radius: 2px; }
+  width: 1200px; }
+
+.anchoImagenCarousel {
+  width: 500px; }
 
 .flexCarousel {
   display: flex;

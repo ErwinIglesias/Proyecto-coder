@@ -139,10 +139,15 @@ nav ul li a{
 }
 
  .anchoCarousel{
-     width: 1200px;
-     border: $bordesVehiculos;
-     border-radius: 2px;
+      width: 1200px;
+    // height: 800px;
+    //  border: $bordesVehiculos;
+    //  border-radius: 2px;
  }
+
+ .anchoImagenCarousel{ 
+    width: 500px;
+}
 
 .flexCarousel{
     display: flex;
