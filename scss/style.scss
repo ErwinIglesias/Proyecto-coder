@@ -40,6 +40,10 @@ nav ul li a{
     font-weight: 400;
  }
 
+  .lineaNav{
+      border-bottom: 1px solid grey;
+  }
+
 .navegador{
     display: flex;
     justify-content: flex-end;
@@ -121,6 +125,12 @@ nav ul li a{
     font-size: 35px;
 }
 
+.linea{
+    border-right: 2px solid red;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
 .pQuienesSomos{
     margin: 0;
     margin-left: 15px;
@@ -162,7 +172,10 @@ nav ul li a{
 
 .tituloContacto{
     text-align: center;
-    padding-left: 50px;
+}
+
+.linea{
+    color: red;
 }
 
 .flexBotones{

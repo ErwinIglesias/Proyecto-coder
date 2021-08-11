@@ -27,6 +27,9 @@ nav ul li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
+.lineaNav {
+  border-bottom: 1px solid grey; }
+
 .navegador {
   display: flex;
   justify-content: flex-end;
@@ -92,6 +95,11 @@ nav ul li a {
   width: 150px;
   font-size: 35px; }
 
+.linea {
+  border-right: 2px solid red;
+  margin-right: 20px;
+  padding-left: 20px; }
+
 .pQuienesSomos {
   margin: 0;
   margin-left: 15px;
@@ -125,8 +133,10 @@ nav ul li a {
   margin-top: 50px; }
 
 .tituloContacto {
-  text-align: center;
-  padding-left: 50px; }
+  text-align: center; }
+
+.linea {
+  color: red; }
 
 .flexBotones {
   display: flex;
