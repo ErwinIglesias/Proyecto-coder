@@ -162,12 +162,13 @@ nav ul li a{
 .imagenes{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .anchoContacto{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .botonesContacto{
@@ -211,14 +212,10 @@ nav ul li a{
 }
 
 .nuestrosVehiculos{
+    position: relative;
     display: flex;
-    justify-content: center;
-}
-
-.tituloNuestrosVehiculos{
-    border: $bordesVehiculos;
-    padding: 15px;
-    border-radius: 5px;
+    left: 100px;
+    margin-top: 30px;
 }
 
 .titulodescVehiculo{
