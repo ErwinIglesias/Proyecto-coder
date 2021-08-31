@@ -457,6 +457,12 @@ footer{
         text-align:right;
     }
 
+    .tituloNuestrosVehiculos{
+        font-size: 20px;
+        position: relative;
+        right: 30px;
+    }
+
     .descVehiculo, .titulodescVehiculo{
         margin: 20px;
     }
@@ -466,6 +472,16 @@ footer{
         padding-left:40px;
     }
 
+    .descVehiculo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin:10px;
+    }
+    
+    .facebook{
+        height: 20px;
+    }
 }
 
 

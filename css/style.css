@@ -352,8 +352,19 @@ footer {
     font-size: 15px; }
   .navbar-nav {
     text-align: right; }
+  .tituloNuestrosVehiculos {
+    font-size: 20px;
+    position: relative;
+    right: 30px; }
   .descVehiculo, .titulodescVehiculo {
     margin: 20px; }
   .paddingAutos {
     padding-right: 40px;
-    padding-left: 40px; } }
+    padding-left: 40px; }
+  .descVehiculo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px; }
+  .facebook, .instagram, .twitter {
+    height: 20px; } }
