@@ -272,6 +272,7 @@ footer {
 .onix {
   position: relative;
   height: 300px;
+  width: 500px;
   border: 1px solid black;
   border-radius: 10px; }
 
