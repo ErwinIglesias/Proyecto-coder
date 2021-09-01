@@ -218,6 +218,9 @@ nav ul li a {
   margin-top: 50px;
   border-bottom: 1px solid black; }
 
+.achicarSelect {
+  width: 250px; }
+
 .facebook, .instagram, .twitter {
   height: 40px;
   position: relative; }
