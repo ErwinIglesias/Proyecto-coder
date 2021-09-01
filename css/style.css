@@ -206,7 +206,17 @@ nav ul li a {
   border-radius: 10px; }
 
 .botonesContacto {
-  height: 600px; }
+  height: 620px; }
+
+.tituloOfertas {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+
+.ofertas {
+  margin: 0;
+  margin-top: 50px;
+  border-bottom: 1px solid black; }
 
 .facebook, .instagram, .twitter {
   height: 40px;
