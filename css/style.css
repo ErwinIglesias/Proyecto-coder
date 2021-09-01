@@ -205,6 +205,9 @@ nav ul li a {
   border: 1px solid black;
   border-radius: 10px; }
 
+.botonesContacto {
+  height: 600px; }
+
 .facebook, .instagram, .twitter {
   height: 40px;
   position: relative; }
