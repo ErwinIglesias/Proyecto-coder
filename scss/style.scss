@@ -287,11 +287,13 @@ footer{
 }
 
 .flexRedes{
+    position: relative;
+    left: 100px;
     width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .flexDerechos{
@@ -434,6 +436,10 @@ footer{
     margin-top: 5px;
 }
 
+.probandoRedes{
+    display: flex;
+}
+
 @media only screen and (max-width:767px){
     .titulo{
         font-size: $fontTituloMobile;
@@ -506,7 +512,7 @@ footer{
         position: relative;
         left: 30px;
         width: 100px;
-        margin: 0;
+        margin: 0px;
         bottom: 20px;
         justify-content: space-around;
     }
