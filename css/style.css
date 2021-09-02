@@ -11,7 +11,7 @@ nav ul li {
   width: 100px; }
 
 .navbar-nav {
-  background-color: white; }
+  background-color: none; }
 
 .flexLogo {
   display: flex;
