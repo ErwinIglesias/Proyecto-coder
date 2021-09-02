@@ -10,6 +10,9 @@ nav ul li {
 .logo {
   width: 100px; }
 
+.navbar-nav {
+  background-color: white; }
+
 .flexLogo {
   display: flex;
   justify-content: center;
