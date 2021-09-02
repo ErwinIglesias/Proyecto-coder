@@ -378,6 +378,9 @@ textarea {
 .probandoRedes {
   display: flex; }
 
+.card-img-top {
+  height: 180px; }
+
 @media only screen and (max-width: 767px) {
   .header {
     border-bottom: 0px; }
@@ -405,10 +408,6 @@ textarea {
     font-size: 15px; }
   .navbar-nav {
     text-align: right; }
-  .tituloNuestrosVehiculos {
-    font-size: 20px;
-    position: relative;
-    right: 30px; }
   .descVehiculo, .titulodescVehiculo {
     margin: 20px; }
   .paddingAutos {
