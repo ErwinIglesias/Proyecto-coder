@@ -383,6 +383,19 @@ textarea {
 .card-img-top {
   height: 180px; }
 
+.centrarCard {
+  width: 100px;
+  align-content: center; }
+
+.card-title, .card-text, .btn-primary {
+  text-align: center; }
+
+.btn-primary {
+  position: relative;
+  left: 70px;
+  display: flex;
+  justify-content: center; }
+
 @media only screen and (max-width: 767px) {
   .header {
     border-bottom: 0px; }
