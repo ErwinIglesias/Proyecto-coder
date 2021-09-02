@@ -169,8 +169,7 @@ nav ul li a {
 .nuestrosVehiculos {
   position: relative;
   display: flex;
-  left: 100px;
-  margin-top: 30px; }
+  justify-content: center; }
 
 .titulodescVehiculo {
   font-size: 20px;
