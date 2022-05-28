@@ -440,10 +440,12 @@ textarea {
     justify-content: center;
   }
   .menu{
+    margin-left:5px;
     margin-top: 12px;
   }
   .navbar-nav {
-    text-align: right; }
+    display: flex;
+    text-align: center; }
   .descVehiculo, .titulodescVehiculo {
     margin: 20px; }
   .paddingAutos {
