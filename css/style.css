@@ -435,6 +435,13 @@ textarea {
   .card-img-top{
     border: 1px solid grey;
   }
+  .bottonPosition{
+    display: flex;
+    justify-content: center;
+  }
+  .menu{
+    margin-top: 12px;
+  }
   .navbar-nav {
     text-align: right; }
   .descVehiculo, .titulodescVehiculo {
