@@ -418,7 +418,6 @@ textarea {
   .logo {
     margin-left: 50px; }
   .bottonPosition {
-    background: white;
     justify-content: flex-end; }
   nav ul a {
     font-size: 15px; }
@@ -429,7 +428,7 @@ textarea {
   }
   .anchoImagenContenedor{
     width: 390px;
-    margin-left: 5px;}
+    margin-right: 5px;}
   .paddingBottom{
     text-align: center;
   }
