@@ -476,7 +476,8 @@ textarea {
     font-size: 12px; } }
 
     .card{
-      border:none;
+      border:0;
+      background-color: white;
       margin-right: 50px;
       display: flex;
       flex-direction: row;
