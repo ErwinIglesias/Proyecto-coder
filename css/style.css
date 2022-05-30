@@ -100,7 +100,7 @@ nav ul li a {
   font-size: 35px; }
 
 .linea {
-  border-right: 2px solid red;
+  border-right: 2px solid #38610B ;
   margin-right: 20px;
   padding-left: 20px; }
 
@@ -243,7 +243,7 @@ footer {
   display: flex;
   justify-content: space-around;
   height: 120px;
-  background-image: linear-gradient(to left, #cfa328, red); }
+  background-color: #38610B; }
 
 .redes {
   display: flex;
@@ -481,10 +481,11 @@ textarea {
       margin-right: 50px;
       display: flex;
       flex-direction: row;
+      background-color: #F3E2A9;
     }
 
     .card-img-top{
-      width: 200px;
+      width: 190px;
       height: 150px;
     }
 
@@ -493,8 +494,22 @@ textarea {
       padding-left: 20px;
     }
 
+    .card-title{
+      font-size: 20px;
+    }
+    
     .card-text{
+      margin:0;
+      margin-top: 5px;
+      margin-left: 6px;
       width: 200px;
+      font-size: 14px;
+    }
+
+    .precio{
+      font-weight: bold;
+      font-size: 17px;
+      margin-left: 40px;
     }
 
     .probandoRedes{
@@ -520,9 +535,12 @@ textarea {
       margin-right: 50px;
     }
 
-    .bg-dark {
+    .bg-dark, .paddingDark {
+      padding: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
       margin-top: 15px;
-      background-color: #495057!important;
+      background-color: #38610B!important;
   }
 
   .dropdown{
@@ -544,7 +562,44 @@ textarea {
   .flexRedes{
     display: flex;
     justify-content: space-around;
-    width: 350px;
-    margin-left: 10px;
+    width: 290px;
+  }
+
+  nav ul li{
+    margin-top: 0;
+  }
+  
+  .card-body{
+    padding-left: 10px;
+  }
+
+  body{
+    background-color: #F3E2A9;
+  }
+
+  .containerDias{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fontHorarios{
+    font-size: 17px;
+  }
+
+  .horarios{
+    font-size: 14px;
+  }
+
+  .quienesSomos{
     position: relative;
+    left: 10px;
+    margin-top: 10px;
+  }
+
+  .pQuienesSomos{
+    position: relative;
+    right: 20px;
   }
