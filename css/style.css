@@ -577,7 +577,7 @@ textarea {
   }
 
   body{
-    background-color: #F3E2A9;
+    background-color: #FCF3CF;
   }
 
   .containerDias{
@@ -606,3 +606,8 @@ textarea {
     position: relative;
     right: 20px;
   }
+
+  .inicioColor, .tragosColor, .milanesasColor, .hamburguesasColor, .bebidasColor{
+    color: black;
+  }
+
