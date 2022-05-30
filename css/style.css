@@ -8,7 +8,9 @@ nav ul li {
   font-size: 20px; }
 
 .logo {
-  width: 200px; }
+  width: 250px;
+  margin-right: 35px;
+}
 
 .navbar-nav {
   background-color: none; }
@@ -531,8 +533,9 @@ textarea {
       padding: 0;
     }
 
-    .logo{
-      margin-right: 50px;
+    .logo {
+      width: 250px;
+      margin-right: 35px;
     }
 
     .bg-dark, .paddingDark {
