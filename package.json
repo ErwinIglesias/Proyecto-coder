@@ -21,5 +21,8 @@
     "url": "https://github.com/ErwinIglesias/Proyecto-coder/issues"
   },
   "homepage": "https://github.com/ErwinIglesias/Proyecto-coder#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
 }
